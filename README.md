@@ -1,4 +1,4 @@
-A ideia deste projeto surgiu diante de um período onde doenças que possuem vacinação estão retornando pela falta de vacinações. Diante deste cenário o projeto foi criado com a intuição de informar e alertar as pessoas sobre a importância das vacinas. 
+A ideia deste projeto surgiu durante de um período onde doenças que possuem vacinação estão retornando pela falta de vacinações. Diante deste cenário o projeto foi criado com a intuição de informar e alertar as pessoas sobre a importância das vacinas. 
 
 Análise Epidemiológica dos Casos de Febre Amarela no Brasil
 
