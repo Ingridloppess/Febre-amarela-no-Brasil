@@ -1,59 +1,53 @@
-A ideia deste projeto surgiu durante de um período onde doenças que possuem vacinação estão retornando pela falta de vacinações. Diante deste cenário o projeto foi criado com a intuição de informar e alertar as pessoas sobre a importância das vacinas. 
+# Análise de Casos de Febre Amarela no Brasil (1994 - 2023)
 
-Análise Epidemiológica dos Casos de Febre Amarela no Brasil
+Este projeto, desenvolvido como parte do curso de Big Data em Python, realiza uma análise exploratória de dados sobre os casos de febre amarela no Brasil entre os anos de 1994 e 2023. Utilizando a biblioteca `pandas` para manipulação de dados e `matplotlib` para visualização, foram criados gráficos para entender melhor a distribuição dos casos ao longo dos anos, considerando variáveis como sexo, idade, e localização geográfica.
 
-Este projeto realiza uma análise detalhada dos dados epidemiológicos da febre amarela no Brasil, com foco em entender a evolução temporal dos casos, a distribuição geográfica, a identificação de grupos de risco, e a avaliação das taxas de mortalidade nas diferentes regiões do país. O objetivo principal é fornecer insights que possam apoiar a formulação de políticas públicas, campanhas de vacinação e estratégias preventivas para combater surtos da doença.
+## Objetivo
 
-A febre amarela é uma doença viral transmitida por mosquitos, e representa um grande desafio para a saúde pública no Brasil, especialmente em regiões tropicais. Embora haja uma vacina eficaz, surtos recorrentes ainda ocorrem, causando mortes e sobrecarregando o sistema de saúde. Este projeto foi desenvolvido para analisar dados históricos sobre os casos confirmados de febre amarela, com o intuito de identificar padrões, compreender as áreas de maior risco e propor intervenções baseadas em dados.
+Explorar os dados de febre amarela no Brasil para identificar padrões temporais e demográficos, incluindo:
+- Total de casos confirmados ao longo dos anos
+- Distribuição de casos por sexo
+- Faixa etária mais afetada
+- Padrões temporais e regionais na ocorrência dos casos
+- Taxa de óbitos por estado
 
-Objetivos Gerais:
+## Tecnologias Utilizadas
 
-Analisar a evolução temporal dos casos confirmados de febre amarela no Brasil.
-Identificar os estados mais afetados e os surtos regionais.
-Determinar grupos de risco com base em idade, sexo e exposição geográfica.
-Avaliar as taxas de mortalidade e sugerir ações de saúde pública para redução de óbitos.
-Objetivos Específicos:
-Previsão de surtos futuros com base em dados temporais.
-Aumento da cobertura vacinal em áreas endêmicas e de alto risco.
-Criação de campanhas de conscientização para grupos vulneráveis.
-Suporte à formulação de políticas públicas regionais.
+- **Python**: Linguagem de programação principal do projeto
+- **Google Colab**: Ambiente de desenvolvimento utilizado
+- **Bibliotecas**:
+  - `pandas`: Para manipulação e limpeza de dados
+  - `matplotlib`: Para criação de gráficos
+  - `seaborn`: Para visualizações mais detalhadas
 
-Etapas do Projeto:
+## Dados
 
-Coleta de Dados: A coleta de dados foi realizada através de dados publicos fornecidos no site:  https://dados.gov.br/dados/conjuntos-dados
+O projeto utiliza dados em formato CSV, contendo as seguintes colunas principais:
+- `SEXO`: Sexo do paciente (Feminino ou Masculino)
+- `IDADE`: Idade do paciente
+- `ANO_IS`, `MES_IS`: Ano e mês do caso registrado
+- `UF_LPI`: Unidade Federativa (estado)
+- `OBITO`: Indicação de óbito (sim ou não)
 
-Utilização de um dataset com informações sobre casos confirmados de febre amarela no Brasil, incluindo data, estado, sexo, idade e óbito.
-Análise Temporal:
+## Análises Realizadas
 
-Identificação de tendências ao longo dos anos com base no número de casos confirmados.
-Análise Geográfica:
+### 1. Evolução Temporal dos Casos
+Gráfico de linha exibindo a quantidade de casos ao longo dos anos. Esta análise ajuda a identificar picos de incidência e possíveis surtos.
 
-Mapeamento dos casos por estado, com foco nos cinco estados com mais casos e óbitos nos últimos 10 anos.
-Análise Demográfica:
+### 2. Distribuição dos Casos por Sexo
+Gráfico de pizza mostrando a proporção de casos por sexo, indicando se a febre amarela afetou mais homens ou mulheres no período analisado.
 
-Classificação dos casos confirmados por sexo e faixa etária, utilizando boxplots e histogramas para visualizar os dados.
-Análise de Mortalidade:
+### 3. Distribuição de Idades
+Histograma exibindo a distribuição etária dos casos confirmados, o que permite observar faixas etárias mais afetadas.
 
-Avaliação da taxa de mortalidade por estado e recomendação de melhorias nas políticas de saúde pública.
-Visualizações Criadas:
+### 4. Casos por Estado (Óbitos vs Sobreviventes)
+Gráfico de barras empilhadas por estado, separando casos que resultaram em óbitos e casos onde o paciente sobreviveu, permitindo uma visão da severidade da doença em cada unidade federativa.
 
-Gráficos de barras: Distribuição dos casos confirmados por ano e por estado.
-Gráficos de pizza: Proporção de casos por sexo.
-Boxplot: Distribuição de idades por sexo.
-Gráficos de linha: Evolução dos casos confirmados ao longo do tempo.
-Resultados
+### 5. Boxplot de Idades por Sexo
+Gráfico boxplot comparando a distribuição de idades entre homens e mulheres, facilitando a análise de tendências demográficas entre os afetados.
 
-Padrões temporais: Identificação de surtos cíclicos, com picos em determinados anos.
+## Como Executar
 
-Regiões mais afetadas: Estados como Minas Gerais, São Paulo e Goiás foram os mais impactados, tanto em número de casos confirmados quanto em taxa de mortalidade.
-
-Grupos de risco: Homens de faixas etárias mais altas foram desproporcionalmente afetados, sugerindo a necessidade de campanhas de vacinação direcionadas.
-
-Mortalidade: Em estados com alta mortalidade, como Minas Gerais, foi observada uma necessidade urgente de melhorar o acesso ao tratamento.
-
-Tecnologias Utilizadas:
-
-Python: Linguagem de programação usada para manipulação dos dados e geração de gráficos.
-Pandas: Biblioteca para análise de dados e manipulação de grandes datasets.
-Matplotlib e Seaborn: Ferramentas de visualização gráfica para criar gráficos de barras, linhas, pizza e boxplots.
-Google Colab: Ambiente de desenvolvimento usado para execução do projeto, facilitando a visualização dos dados e a criação dos gráficos. 
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/Ingridloppess/Febre-amarela-no-Brasil
