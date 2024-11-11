@@ -66,27 +66,6 @@ Diferenças significativas na distribuição de casos entre homens e mulheres
 Faixas etárias mais afetadas, diminuição possível vulnerabilidade específica
 Estados com índices de mortalidade entre os maiores casos confirmados
 
-## Contribuição
-Contribuições são bem-vindas! Para sugerir melhorias:
-
-Fork este repositório.
-Crie um branch com seu recurso:
-bater
-
-Copiar código
-git checkout -b feature/sua-feature
-Comprometa suas mudanças:
-bater
-
-Copiar código
-git commit -m 'Descrição da sua feature'
-Envie para o diretor da filial:
-bater
-
-Copiar código
-git push origin feature/sua-feature
-Abra um Pull Request.
-
 ## Licença
 Este projeto está licenciado sob uma licença do MIT .
 
