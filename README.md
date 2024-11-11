@@ -51,3 +51,43 @@ Gráfico boxplot comparando a distribuição de idades entre homens e mulheres, 
 1. Clone este repositório:
    ```bash
    git clone https://github.com/Ingridloppess/Febre-amarela-no-Brasil
+
+2. Abra o Google Colab e faça o upload do notebook.
+
+3. Baixe o arquivo de dados casos_94_23.csve faça o upload no ambiente Colab.
+   
+4. Execute as células do notebook para reproduzir as análises e visualizações.
+## Resultados
+
+Com as análises elaboradas, foram obtidos insights relevantes:
+
+Anos com maior incidência de febre amarela
+Diferenças significativas na distribuição de casos entre homens e mulheres
+Faixas etárias mais afetadas, diminuição possível vulnerabilidade específica
+Estados com índices de mortalidade entre os maiores casos confirmados
+
+## Contribuição
+Contribuições são bem-vindas! Para sugerir melhorias:
+
+Fork este repositório.
+Crie um branch com seu recurso:
+bater
+
+Copiar código
+git checkout -b feature/sua-feature
+Comprometa suas mudanças:
+bater
+
+Copiar código
+git commit -m 'Descrição da sua feature'
+Envie para o diretor da filial:
+bater
+
+Copiar código
+git push origin feature/sua-feature
+Abra um Pull Request.
+
+## Licença
+Este projeto está licenciado sob uma licença do MIT .
+
+Nota : Os gráficos foram desenvolvidos com base em dados reais de saúde pública. Recomenda-se o uso responsável das informações e respeito aos dados sensíveis envolvidos.
