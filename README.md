@@ -51,9 +51,17 @@ Histograma mostrando a frequência de casos em diferentes faixas etárias, indic
 Gráfico de linha detalhando a quantidade de casos por mês e ano.
 ![BIG DATA (7)](https://github.com/user-attachments/assets/d6f61279-c09f-4d59-b32e-8b5a0820496d)
 
-### 6. Boxplot de Idades por Sexo
+### 6. Óbitos vs Sobreviventes por Estado
+Gráfico de barras empilhadas comparando o número de óbitos e sobreviventes por estado.
+![download](https://github.com/user-attachments/assets/99791daa-a023-4cb0-b2a9-40efa82a3bd5)
+
+### 7. Boxplot de Idades por Sexo
 Gráfico boxplot comparando a distribuição de idades entre homens e mulheres, facilitando a análise de tendências demográficas entre os afetados.
-![Uploading img big data (4).png…]()
+![img big data(8)](https://github.com/user-attachments/assets/feafdf1b-3496-4f58-8dd2-6fc1efadbef6)
+
+### 8. Casos Confirmados de Febre Amarela por estado e ano
+Esse gráfico de barras empilhadas mostra o número total de casos confirmados de febre amarela em cada estado ao longo dos anos. Cada barra representa um estado, com diferentes cores dentro da barra indicando os casos ocorridos em diferentes anos.
+![img big data (9)](https://github.com/user-attachments/assets/f2aefb6d-902a-4ed1-84b6-5404d850a29f)
 
 
 ## Como Executar
