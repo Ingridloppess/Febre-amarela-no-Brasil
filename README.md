@@ -33,6 +33,7 @@ O projeto utiliza dados em formato CSV, contendo as seguintes colunas principais
 
 ### 1. Evolução Temporal dos Casos
 Gráfico de linha exibindo a quantidade de casos ao longo dos anos. Esta análise ajuda a identificar picos de incidência e possíveis surtos.
+(![IMG_PJ_Bigdata(2)](https://github.com/user-attachments/assets/1433c556-d350-40e3-a076-f6845aa35306)
 
 ### 2. Distribuição dos Casos por Sexo
 Gráfico de pizza mostrando a proporção de casos por sexo, indicando se a febre amarela afetou mais homens ou mulheres no período analisado.
