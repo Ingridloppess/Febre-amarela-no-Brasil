@@ -31,21 +31,30 @@ O projeto utiliza dados em formato CSV, contendo as seguintes colunas principais
 
 ## Análises Realizadas
 
-### 1. Evolução Temporal dos Casos
-Gráfico de linha exibindo a quantidade de casos ao longo dos anos. Esta análise ajuda a identificar picos de incidência e possíveis surtos.
-(![IMG_PJ_Bigdata(2)](https://github.com/user-attachments/assets/1433c556-d350-40e3-a076-f6845aa35306)
+### 1. Total de casos de 1994 até 2023
+Gráfico de linha exibindo a quantidade de casos ao longo dos anos.
+![IMG_PJ_Bigdata(2)](https://github.com/user-attachments/assets/e435fead-5173-46eb-97c3-b90e1edb9003)
 
 ### 2. Distribuição dos Casos por Sexo
 Gráfico de pizza mostrando a proporção de casos por sexo, indicando se a febre amarela afetou mais homens ou mulheres no período analisado.
+![img big data (4)](https://github.com/user-attachments/assets/97b11c61-692d-420c-aa99-4cf0db2d29b0)
 
-### 3. Distribuição de Idades
-Histograma exibindo a distribuição etária dos casos confirmados, o que permite observar faixas etárias mais afetadas.
+### 3. Quatidade de casos por ano
+Gráfico de barras mostrando a quantidade de casos por ano, destacando anos de maior incidência.
+![img big data (5)](https://github.com/user-attachments/assets/da1c6b6e-e3b2-4ce7-87c6-0c56894bf36f)
 
-### 4. Casos por Estado (Óbitos vs Sobreviventes)
-Gráfico de barras empilhadas por estado, separando casos que resultaram em óbitos e casos onde o paciente sobreviveu, permitindo uma visão da severidade da doença em cada unidade federativa.
+### 4. Distribuição de Idades
+Histograma mostrando a frequência de casos em diferentes faixas etárias, indicando quais idades foram mais afetadas.
+![BIGDATA(6)](https://github.com/user-attachments/assets/8e9b1310-60e7-4019-9965-9a5fc04b97ad)
 
-### 5. Boxplot de Idades por Sexo
+### 5. Evolução Temporal dos Casos (Ano e Mês)
+Gráfico de linha detalhando a quantidade de casos por mês e ano.
+![BIG DATA (7)](https://github.com/user-attachments/assets/d6f61279-c09f-4d59-b32e-8b5a0820496d)
+
+### 6. Boxplot de Idades por Sexo
 Gráfico boxplot comparando a distribuição de idades entre homens e mulheres, facilitando a análise de tendências demográficas entre os afetados.
+![Uploading img big data (4).png…]()
+
 
 ## Como Executar
 
